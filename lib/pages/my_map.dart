@@ -35,7 +35,7 @@ class _MyMapState extends State<MyMap> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Google Office Locations'),
-        backgroundColor: Colors.green[700],
+//        backgroundColor: Colors.green[700],
       ),
       body: GoogleMap(
         onMapCreated: _onMapCreated,

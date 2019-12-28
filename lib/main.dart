@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mymap/pages/my_map.dart';
 
+import 'pages/my_map2.dart';
+
 void main() => runApp(App());
 
 class App extends StatelessWidget {
@@ -31,8 +33,8 @@ class MyApp extends StatelessWidget {
           physics: NeverScrollableScrollPhysics(),
           children: [
             MyMap(),
-            Icon(Icons.restaurant),
-            Icon(Icons.directions_bike),
+            MyMap2(),
+            MyMap(),
           ],
         ),
       ),
